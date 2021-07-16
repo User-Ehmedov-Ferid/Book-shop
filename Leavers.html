@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="E:\FFOutput\new project\bootstrap.css">
+    <script src="https://kit.fontawesome.com/f5594e1c4d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href= "D:\FFOutput\icon\all.min.css">
+    <style>
+        body {
+            background-color: whitesmoke;
+
+        }
+        .container .row  .a  .btn  {
+            background-color: aqua;
+            color: white;
+            width: 100px;
+            transition: all 0.8s;
+        }
+        .container .row  .a:hover  .btn  {
+            background-color: aquamarine;
+            color: whitesmoke;
+            box-shadow: aqua 3px  10px ;
+        }
+        .container .row  select option{
+            border-color: whitesmoke ;
+        }
+        .container .row input  {
+            border-radius: 5px;
+            
+        }
+
+    </style>
+    <title>THE LEAVERS</title>
+</head>
+<body>
+    <header><a style="color: black; font-weight: 500;" ><i class="fas fa-book-open" style="color: aqua;"></i> Book shop</a></header>
+    <div class="container d-flex justify-content-start mt-5  ">
+        <div class="row">
+            
+            <label for="email" >Email</label>
+            <input type="email"  name="email" id="email" placeholder="Email" style="width: 150px;">
+            <label for="password" >Password</label>
+            <input type="password"  name="password" id="password" placeholder="Password" style="width: 150px;">
+            <label for="location">Select location:</label>
+            <select id="location"  style="width: 250px; border-color: whitesmoke   ;">
+                <option value="Nerimanov">Baku Nerimanov Metro</option>
+                <option value="Genclik">Baku Genclik Metro</option>
+                <option value="28 May"> Baku 28 May Metro</option>
+                <option value="Nizami">Baku Nizami Metro</option>
+                <option value="Elmler">Baku Elmler Metro</option>
+                <option value="Inshatchilar">Baku Inshatchilar Metro</option>
+                <option value="20 Yanvar">Baku 20 Yanvar Metro</option>
+                <option value="Memar Ecemi">Baku Memar Ecemi Metro</option>
+                <option value="Nesimi">Baku Nesimi Metro</option>
+                <option value="Azadliq">Baku Azadliq Metro</option>
+                <option value="Dernegul">Baku Dernegul Metro</option>
+            </select>
+            <div class="a" style="margin-top: 20px; ">
+                <button type="submit" onclick="confirmed()"   class="btn   me-sm-2     ">$4.99</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="E:\FFOutput\new project\Buy.js"></script>
+    <script src="E:\FFOutput\new project\bootstrap.js"></script>
+    <script src="E:\FFOutput\new project\jquery-3.6.0.min.js"></script>
+</body>
+</html>

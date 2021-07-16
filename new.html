@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="E:\FFOutput\new project\bootstrap.css">
+    <link rel="stylesheet" href="E:\FFOutput\new project\new.css">
+    <script src="https://kit.fontawesome.com/f5594e1c4d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href= "D:\FFOutput\icon\all.min.css">
+    <title>Book shop</title>
+</head>
+<body id="background">
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" ><i class="fas fa-book-open" style="color: aqua;"></i> Book shop</a>
+                  <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="E:\FFOutput\new project\new.html">Home</a>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Menu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Sign in</a></li>
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Contact</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="Book shop" tabindex="-1" aria-disabled="true"></a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+              
+                <button id="other" onclick="black()"   class="btn  btn-dark ">
+                  <div id="small" >
+                    <i class="far fa-sun" id="sun" style="color: rgb(196, 196, 8); font-size: 15px; "></i>
+                    <i class="far fa-moon" id="moon" style="color: aqua; font-size: 15px; padding-top: 5px; padding-right: 5px; "></i>
+                  </div>
+                </button>
+              
+        </div>
+        
+    </header>
+    <main>
+        <div class="container-fluid d-flex justify-content-center  mt-5 " >
+            <div class="row ">
+            <div class="card col-sm-12 col-md-3 mt-sm-3  " >
+              <img src="E:\FFOutput\new project\download (1).jfif"  class="card-img-top"  height="200" alt="...">
+              <div class="card-body">
+                <h5 id="city" class="card-title  "></h5>
+                <a id="dark-btn"  onclick="City()"  class="btn btn-primary mt-md-0 mt-lg-4 ">$5.99</a>
+              </div>
+            </div>
+            
+                
+                <div class="card col-sm-12 col-md-3 mt-sm-3 " >
+                  <img src="E:\FFOutput\new project\download (2).jfif"  class="card-img-top" height="200" alt="...">
+                  <div class="card-body">
+                    <h5 id="forest" class="card-title"></h5>
+                    <a id="dark-btn"  class="btn btn-primary mt-md-0 mt-lg-4" onclick="Forest()" >$6.99</a>
+                  </div>
+                </div>
+                <div class="card col-sm-12 col-md-3 mt-sm-3 " >
+                    <img src="E:\FFOutput\new project\images (1).jfif"  class="card-img-top" height="200" alt="...">
+                    <div class="card-body">
+                      <h5 id="till" class="card-title">TILL MURDER DO US PART</h5>
+                      <a id="dark-btn"  class="btn btn-primary" onclick="Murder()">$7.99</a>
+                    </div>
+                  </div>
+                  <div class="card col-sm-12 col-md-3 mt-sm-3 " >
+                    <img src="E:\FFOutput\new project\images.jfif"  class="card-img-top"  height="200" alt="...">
+                    <div class="card-body">
+                      <h5 id="agent" class="card-title">AGENT UNDERCOVER</h5>
+                      <a id="dark-btn"  class="btn btn-primary " onclick="Agent()">$8.99</a>
+                    </div>
+                  </div>
+            
+                  
+            
+            </div>
+        </div>
+        <div class="container-fluid d-flex justify-content-center  mt-5">
+            <div class="row ">
+              <div class="card col-sm-12 col-md-3 mt-sm-3 " >
+                <img src="E:\FFOutput\new project\download (6).jfif"  class="card-img-top"  height="200" alt="...">
+                <div class="card-body">
+                  <h5 id="days" class="card-title">DAYS WITHOUT END</h5>
+                  <a id="dark-btn"  class="btn btn-primary" onclick="Days()">$9.99</a>
+                </div>
+              </div>
+              
+                  <div class="card col-sm-12 col-md-3 mt-sm-3 " >
+                    <img src="E:\FFOutput\new project\images (2).jfif"  class="card-img-top"  height="200" alt="...">
+                    <div class="card-body">
+                      <h5 id="hatten" class="card-title">THE HATTEN GARDEN JOB</h5>
+                      <a id="dark-btn"  class="btn btn-primary" onclick="Hatten()">$10.99</a>
+                    </div>
+                  </div>
+
+                  <div class="card col-sm-12 col-md-3 mt-sm-3 " >
+                    <img src="E:\FFOutput\new project\download (5).jfif"  class="card-img-top" height="200" alt="...">
+                    <div class="card-body">
+                      <h5 id="hush" class="card-title ">HUSH</h5>
+                      <a id="dark-btn"  class="btn btn-primary mt-lg-4 mt-md-0 " onclick="Hush()">$11.99</a>
+                    </div>
+                  </div>
+                  <div class="card col-sm-12 col-md-3 mt-sm-3 " >
+                    <img src="E:\FFOutput\new project\download.jfif"  class="card-img-top"  height="200" alt="...">
+                    <div class="card-body">
+                      <h5 id="bain" class="card-title">SHUGGIE BAIN</h5>
+                      <a id="dark-btn"  class="btn btn-primary  mt-lg-4 mt-md-0 " onclick="Bain()">$12.99</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="container-fluid d-flex justify-content-center  mt-5">
+          <div class="row ">
+            <div class="card col-sm-12 col-md-3 mt-sm-3 " >
+              <img src="E:\FFOutput\new project\download (7).jfif"  class="card-img-top"  height="200" alt="...">
+              <div class="card-body">
+                <h5 id="heaven" class="card-title">HEAVEN</h5>
+                <a id="dark-btn"  class="btn btn-primary" onclick="Heaven()">$4.99</a>
+              </div>
+            </div>
+            
+                <div class="card col-sm-12 col-md-3 mt-sm-3 " >
+                  <img src="E:\FFOutput\new project\download (8).jfif"  class="card-img-top"  height="200" alt="...">
+                  <div class="card-body">
+                    <h5 id="leavers" class="card-title">THE LEAVERS</h5>
+                    <a id="dark-btn"  class="btn btn-primary" onclick="Leavers()">$4.99</a>
+                  </div>
+                </div>
+
+                <div class="card col-sm-12 col-md-3 mt-sm-3 " >
+                  <img src="E:\FFOutput\new project\download (9).jfif"  class="card-img-top" height="200" alt="...">
+                  <div class="card-body">
+                    <h5 id="out" class="card-title">OUT</h5>
+                    <a id="dark-btn"  class="btn btn-primary" onclick="Out()">$5.55</a>
+                  </div>
+                </div>
+                <div class="card col-sm-12 col-md-3 mt-sm-3 " >
+                  <img src="E:\FFOutput\new project\download (10).jfif"  class="card-img-top"  height="200" alt="...">
+                  <div class="card-body">
+                    <h5 id="sapiens" class="card-title">SAPIENS</h5>
+                    <a id="dark-btn"  class="btn btn-primary" onclick="Sapiens()">$7.99</a>
+                  </div>
+                </div>
+          </div>
+      </div>
+    </main>
+    
+    <footer class=" d-flex justify-content-sm-center mt-5">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link " href="#">Back</a></li>
+          <li class="page-item"><a class="page-link" href="E:\FFOutput\new project\new.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="E:\FFOutput\new project\new2.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="E:\FFOutput\new project\new2.html">Next</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="E:\FFOutput\new project\search.js"></script>
+    <script src="E:\FFOutput\new project\dark-mode.js"></script>
+    <script src="E:\FFOutput\new project\new0.js"></script>
+    <script src="E:\FFOutput\new project\jquery-3.6.0.min.js"></script>
+    <script src="E:\FFOutput\new project\bootstrap.js"></script>
+</body>
+</html>

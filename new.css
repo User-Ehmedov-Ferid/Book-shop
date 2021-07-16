@@ -1,0 +1,40 @@
+main .container-fluid {
+    width: 60%;
+}
+main .container-fluid .row {
+    
+    --bs-gutter-x:0;
+
+
+}
+
+
+header #other  {
+    width: 60px;
+    height: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 20px;
+    
+    
+    
+}
+
+header  #other #small{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    float: left;
+    
+    
+}
+header  #other #small #moon {
+    display: flex;
+    justify-content:flex-end;
+}
+
+
